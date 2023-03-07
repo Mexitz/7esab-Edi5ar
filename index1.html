@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="Money.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Tajawal:wght@500&display=swap" rel="stylesheet">
+    <title>حاسبة الإدخار</title>
+
+</head>
+
+<body class = "Body1">
+
+    <p id = "MainT" class="fade-in">حاسبة الإدخار</p>
+    
+    <div id = "MainD">
+        
+        <div id ="SubD1" class="fade-in">
+            <p id = "SubD1T1">مبلغ الإدخار الشهري</p>
+            <input type="number" id = "SubD1I1" >
+
+            <p id = "SubD1T2" >مدة الإدخار</p>
+            <input type="number" id = "SubD1I2" >
+        </div>
+
+        <div id ="SubD2" class="fade-in">
+
+            <p id = "SubD2T1">إجمالي المبلغ</p>
+            <input type="number" id ="SubD2I1" disabled>
+            
+            
+            <p id = "SubD2T2">التوفير الأسبوعي</p>
+            <input type="number" id ="SubD2I2" disabled>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
